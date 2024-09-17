@@ -1,12 +1,12 @@
 class Comment {
-    id: number;
+  id: number;
 
-    comment: string;
+  comment: string;
 
-    constructor (id: number, comment: string) {
-        this.id = id;
-        this.comment = comment;
-    }
+  constructor(id: number, comment: string) {
+    this.id = id;
+    this.comment = comment;
+  }
 }
 
 export default Comment;
